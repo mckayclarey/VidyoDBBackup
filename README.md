@@ -1,2 +1,4 @@
 # VidyoDBBackup
-A Powershell backup script to create and download a database backup from a VidyoPortal running 3.4.2 or later. 
+A simple Powershell script to create and download a VidyoPortal Database backup .veb file locally. This can easily be automated as a Scheduled Task. 
+
+User must supply VidyoPortal URL and a super level user credential as well as set a password for the database file, default value is "somepassword".   
